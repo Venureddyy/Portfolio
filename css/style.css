@@ -167,6 +167,12 @@ a {
     display: block; }
     .site-hero h1 strong {
       font-weight: 800; }
+      @media (min-width: 400px) {
+        .site-hero{
+          background-size: cover;
+          background-position: top;
+        }
+      }
     @media (min-width: 768px) {
       .site-hero h1 {
         font-size: 70px; } }
